@@ -12,7 +12,7 @@ export function Home() {
 
   return (
     <div>
-      <p>Home</p>
+
       <h1>Produtos</h1>
       {error && <p>{error}</p>}
       <ul className='products'>
