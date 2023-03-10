@@ -1,0 +1,21 @@
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.products li {
+  border: 1px solid #EFEFEF;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+  margin: 0 10px;
+  width: 25%;
+  transition: 1s;
+}
+
+.products li:hover {
+  cursor: pointer;
+  background-color: gray;
+}
